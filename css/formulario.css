@@ -1,0 +1,43 @@
+*{
+    /*Deixa sem espaço no navegador*/
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #42348f;
+    color: white;
+}
+
+.container {
+
+    /*Tmanho da borda*/
+    max-width: 500px;
+    /*Centralizar*/
+    margin: 0 auto;
+}
+
+label{
+    /**/
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input, 
+select{
+    width: 100%;
+    padding: 8px;
+}
+
+.btn-cadastro,
+.btn-limpar{
+    background: #5849ad;
+    color: white;
+    padding: 10px;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+.btn-limpar{
+    background: rgb(89, 49, 165);
+}
