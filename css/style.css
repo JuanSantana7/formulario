@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
 }
+
 body {
-    background-image: url("../fundo.pn");
+    background-image: url("../fundo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .container {
@@ -31,11 +32,25 @@ select{
 }
 
 .inscrever,
-.limpar{
+.limpar {
     background: #5849ad;
     color: white;
-    padding: 10px;
-    border: 0;
-    margin: 20px;   
+    padding: 10px 40px ;
+    font-size: 15px;
+    border: 2px solid #5849ad;
+    border-radius: 7px;
+    margin: 40px;
     cursor: pointer;
+}
+
+.inscrever:hover,
+.limpar:hover {
+    background: #765ee0;
+}
+
+h1, p{
+    text-align: center;
+}
+strong{
+    color: #a77fe6;
 }
